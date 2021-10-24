@@ -1,0 +1,20 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+
+  .item-image {
+    width: 180px;
+    height: 150px;
+    overflow: hidden;
+  }
+
+  .item-title {
+    font-size: 14px;
+  }
+
+  .item-price {
+    font-size: 12px;
+    font-weight: normal;
+  }
+}

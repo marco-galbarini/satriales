@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../satriales-logo.png';
-import './NavBar.css';
+import './NavBar.scss';
 import CartWidget from './CartWidget';
 
 

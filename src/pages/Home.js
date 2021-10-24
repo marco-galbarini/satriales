@@ -1,12 +1,12 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
-import ItemListContainer from '../container/ItemListContainer';
+import ItemListContainer from '../components/ItemListContainer';
 
 const Home = () => {
   return (
     <>
       <NavBar />
-      <ItemListContainer message="this is a message"/>
+      <ItemListContainer message="this is a message" />
     </>
   );
 };
