@@ -3,14 +3,15 @@ import './Item.scss';
 
 const Item = props => {
   const { product } = props;
-  const { id, title, price, pictureUrl } = product;
+  const { name, description, imageURL, price } = product;
 
   return (
     <div className='item'>
-      <img src={pictureUrl} className='item-image' alt={title} />
+      <img src={imageURL} className='item-image' alt={name} />
       <div className='item-info'>
-        <h1 className='item-title'>{title}</h1>
-        <h2 className='item-price'>{price}</h2>
+        <h1 className='item-title'>{name}</h1>
+        <p className='item-description'>{description}</p>
+        <h2 className='item-price'>Price: {price}</h2>
       </div>
     </div>
   );

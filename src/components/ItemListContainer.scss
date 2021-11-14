@@ -1,12 +1,5 @@
-.message {
+.item-list-container {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100%;
-  height: 500px;
-
-  p {
-    font-size: 32px;
-    color: #000;
-  }
 }

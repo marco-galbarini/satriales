@@ -3,7 +3,6 @@ import './ItemList.scss';
 
 const ItemList = props => {
   const { products } = props;
-  console.log('products is: 🐱‍🐉', products);
 
   return (
     <div className='item-list'>

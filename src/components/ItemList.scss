@@ -1,3 +1,6 @@
 .item-list {
   display: flex;
+  margin: 40px;
+  flex-wrap: wrap;
+  max-width: 1150px;
 }
